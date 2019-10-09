@@ -1,0 +1,16 @@
+public class massinsert {
+    
+    public void massinsert(){
+        
+      List<mycustomobject__c> custList = new List<mycustomobject__c>();  //object=mycustomobject__c
+      for(integer i=1; i<100; i++)
+      {
+      mycustomobject__c objCust = new mycustomobject__c();
+      objCust.name='test'+i;
+      custList.add(objCust);
+      }
+      insert custList;
+        
+    }
+
+}
