@@ -14,3 +14,7 @@ public class massinsert {
     }
 
 }
+
+**Execute Anonymous Window**
+massinsert minsert = new massinsert();
+minsert.massinsert();
